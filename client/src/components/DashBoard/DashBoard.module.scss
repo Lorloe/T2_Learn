@@ -1,0 +1,70 @@
+@import "../../variable.module";
+.container{
+  display: flex;
+  flex-wrap: wrap;
+.bulletin{ 
+  min-width: 1000px;
+  height: 256px;
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+  position: relative;
+  border-radius: 15px;
+  
+  .box-left{
+    position:absolute;
+    border-radius: 15px;
+    padding: 20px;
+    height: 256px;
+   width: 200px;
+   background-color: #0093E9;
+   background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+   
+    h3{
+     font-size: 3rem;
+   }
+  } 
+  .box-right{
+    font-size: 1.5rem;
+    padding-left: 250px;
+    padding-top: 25px;
+    .bottom-box{
+      margin-top: 125px;
+       span{
+        padding-right:100px;
+        font-weight: 700;
+        font-size: 2rem;
+       }
+       .btn{
+        border-radius: 18px;
+        width: 192px;
+        height: 48px;
+        background-color: black;
+        border-style: none;
+        font-size: 1.2rem;
+        font-weight: 700;
+        font-family: FeatherBold;
+       }
+    }
+  }
+
+ }
+   .streak-box{
+    background: #FAFAFD;
+    height: 256px;
+    border-radius: 15px;
+    min-width: 200px;
+    margin: 0px 0px 0px 10px;
+    .title{
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    img{
+      margin-top: 70px;
+      display: block;
+      width : 70px;
+      height : 70px;
+    }
+   }
+}
+

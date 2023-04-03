@@ -1,0 +1,44 @@
+$myColor: red;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700;800&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;500&display=swap');
+
+
+@font-face {
+  font-family: Cheris;
+  src: url(./assets/font/SVNCherishMoment.otf);
+}
+@font-face {
+  font-family: Story;
+  src: url(./assets/font/StoryTelling.ttf);
+}
+@font-face {
+  font-family: LionetteSemi;
+  src: url(./assets/font/LinonneteSemi.ttf);
+}
+@font-face {
+  font-family: AleoRegular;
+  src: url(./assets/font/AleoRegular.otf);
+}
+@font-face {
+  font-family: Fredoka;
+  src: url(./assets/font/FredokaOneRegular.otf);
+}
+@font-face {
+  font-family: FeatherBold;
+  src: url(./assets/font/Feather.ttf);
+}
+@import "./variable.module";
+
+::placeholder {
+  color:$input-text-color;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+
+}

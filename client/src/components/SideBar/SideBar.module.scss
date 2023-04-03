@@ -1,0 +1,17 @@
+@import "../../variable.module";
+
+.container {
+    
+    height: 100%;
+    min-height: 100vh;
+    img{      
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 72px;
+        height: 72px;
+        cursor: pointer;
+    }
+    border-right: 3px solid $processbar;
+    
+}
